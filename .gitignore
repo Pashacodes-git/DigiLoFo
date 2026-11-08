@@ -19,3 +19,17 @@ woxsen_campus.webp
 .idea/
 .claude/
 .agents/
+# DigiLoFo database and secrets
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Virtual environment
+.venv/
+
+# Environment variables and Streamlit secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
