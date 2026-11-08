@@ -1,0 +1,21 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local backups and temporary scratch images
+*.db.bak
+uploaded_*
+background_*
+woxsen_campus.webp
+
+# IDE and Agent metadata
+.vscode/
+.idea/
+.claude/
+.agents/
