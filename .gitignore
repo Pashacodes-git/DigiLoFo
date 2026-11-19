@@ -8,25 +8,19 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Local backups and temporary scratch images
+# Local backups and temporary scratch files
+*.bak
 *.db.bak
 uploaded_*
 background_*
 woxsen_campus.webp
+seed_47_items.py
 
 # IDE and Agent metadata
 .vscode/
 .idea/
 .claude/
 .agents/
-# DigiLoFo database and secrets
-*.db
-*.sqlite
-*.sqlite3
-*.db-journal
-
-# Virtual environment
-.venv/
 
 # Environment variables and Streamlit secrets
 .env
